@@ -1,7 +1,7 @@
 class Hero {
     private int health;
     private int damage;
-    private int superPower;
+    private String superPower;
 
     public int getHealth() {
         return this.health;
@@ -9,11 +9,11 @@ class Hero {
     public int getDamage() {
         return this.damage;
     }
-    public int getSuperPower() {
+    public String getSuperPower() {
         return this.superPower;
     }
 
-    public Hero(int health, int damage, int superPower) {
+    public Hero(int health, int damage, String superPower) {
         this.health = health;
         this.damage = damage;
         this.superPower = superPower;
