@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class Main {
     public static void main(String[] args){
         Boss villain = new Boss();
@@ -17,7 +15,7 @@ public class Main {
     }
 
     public static Hero heroWithUltimate(int health, int damage, String superPower) {
-        Hero hero = new Hero(health,damage,superPower);
+        Hero hero = new Hero(health, damage, superPower);
         return hero;
     }
     public static Hero withoutUltimate(int health,int damage) {
