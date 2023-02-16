@@ -1,7 +1,7 @@
 import java.sql.SQLOutput;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Boss villain = new Boss();
         villain.setHealth(800);
         villain.setDamage(60);
